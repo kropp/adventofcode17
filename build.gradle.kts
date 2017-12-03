@@ -29,6 +29,7 @@ repositories {
 
 dependencies {
     compile(kotlinModule("stdlib-jdk8", kotlin_version))
+    testCompile(kotlinModule("test-junit", kotlin_version))
 }
 
 tasks.withType<KotlinCompile> {
